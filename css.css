@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Rubik:ital@1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1faee;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: 25% auto;
+}
+
+.container-main {
+      padding: 25px;
+      border-radius: 5px;
+      max-width: 320px;
+      border: 3px solid #a8dadc;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+}
+
+input {
+    background: lightgrey;
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+}
+
+#add-button {
+    background: #e63946;
+    cursor: grab;
+    padding: 15px 120px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+#add-button:active, li:active {
+    transform: translateY(4px);
+    cursor: grabbing;
+}
+
+#add-button:hover {
+    background: #780000;
+
+}
+
+li {
+    padding: 15px;
+    background: #e9edc9;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+li:hover {
+    background: #ffb703;
+    cursor: grab;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
