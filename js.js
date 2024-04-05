@@ -18,8 +18,8 @@ const shoppingListEl = document.querySelector(".shopping-list")
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     push(shoppingListInDB, inputValue)
-    clearInputFieldEl() // call the function, defined bellow
-    appendItemToShoppingListEl(inputValue) // call the function, defined bellow
+    clearInputFieldEl()
+    appendItemToShoppingListEl(inputValue) 
 })
 
 onValue(shoppingListInDB, function(snapshot) {
@@ -44,7 +44,7 @@ function clearShoppingListEl() {
 }
 
 function clearInputFieldEl() {
-  inputFieldEl.value = "" // clears the input field when button is pressed
+  inputFieldEl.value = "" 
 }
 
 function appendItemToShoppingListEl(item) {
